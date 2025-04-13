@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$db = new mysqli('localhost', 'root', '8766722758', 'giga_data');
+$db = new mysqli('localhost', 'root', 'xxx', 'giga_data');
 
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
